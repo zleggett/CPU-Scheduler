@@ -4,9 +4,9 @@ A simulated CPU scheduler written in C++
 ## Supported Scheduler Types
 **FCFS**: First Come First Serve, tasks are processed as they arrive
  
-**SRTF**: Shortest Remaining Time First, tasks with the least remaining time are processed first
+**SRTF**: Shortest Remaining Time First, tasks with the least remaining time are processed first, with preemption
  
-**RR**: Round Robin, tasks are processed for the time specified by the time quantum before moving on to the next task and eventually wrapping back around to the first task
+**RR**: Round Robin, tasks are processed for the time specified by the time quantum before moving on to the next task and eventually wrapping back around to the first task, with preemption
 
 ## Task File
 The scheduler accepts a task file which contains the tasks to be scheduled.
