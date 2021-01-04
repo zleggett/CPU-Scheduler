@@ -17,7 +17,7 @@ pid arrival_time burst_time
 An example task file is provided in the repo.
 
 ## Usage
-Can be compiled using the provided make file or by running ```g++ scheduler.cpp -o scheduler```
+Can be compiled using the provided makefile or by running ```g++ scheduler.cpp -o scheduler```
 
 Run using ```./scheduler task_list_file [FCFS|RR|SRTF] [time_quantum]```
 
